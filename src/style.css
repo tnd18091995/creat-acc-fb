@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.signup-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signup-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.signup-header {
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1877f2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #65676b;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-link {
+    color: #1877f2;
+    text-decoration: none;
+}

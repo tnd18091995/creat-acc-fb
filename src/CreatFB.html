@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="logo-text">FACEBOOK</div>
+</div>
+<div class="container signup-container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card signup-card">
+                <div class="card-body">
+                    <h2 class="signup-header text-center">Create a New Account</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Mobile number or email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="New password">
+                        </div>
+                        <div class="form-group">
+                            <label for="birthdate">Birthday</label>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select class="form-control" id="birthdate-day">
+                                        <option value="" selected>Day</option>
+                                        <!-- Add options for days 1-31 here -->
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control" id="birthdate-month">
+                                        <option value="" selected>Month</option>
+                                        <!-- Add options for months here -->
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control" id="birthdate-year">
+                                        <option value="" selected>Year</option>
+                                        <!-- Add options for years here -->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select class="form-control" id="gender">
+                                <option value="" selected>Select Gender</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="footer-text">
+        Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook.
+        <a href="#" class="footer-link">Tìm hiểu thêm</a>.<br>
+        Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#" class="footer-link">Điều khoản</a>,
+        <a href="#" class="footer-link">Chính sách quyền riêng tư</a> và
+        <a href="#" class="footer-link">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
